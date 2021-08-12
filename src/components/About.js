@@ -1,20 +1,20 @@
 import React from 'react'
-import './About.css'
+import './Section.css'
 import memoji from '../images/memoji.png'
 
 function About() {
     return (
-        <div className='about'>
+        <div className='container'>
             <div className='heading'>
                 <img src={memoji} alt='About Memoji'/>
                 <div className='heading-title'>
                     <h2>About</h2>
-                    <h1>Read more about me</h1>
+                    <h1>Read about me</h1>
                 </div>
             </div>
-            <div className='about-me'>
+            <div className='body'>
                 <p>My name is <span>Antony Ni</span>, a student and developer at <span>Purdue University.</span> </p>
-                <p>I am a rising sophomore currently studying and obtaining a Bachelor's Degree in <span>Computer Science</span> at Purdue University.
+                <p>I am a rising sophomore studying and obtaining a Bachelor's Degree in <span>Computer Science</span> at Purdue University.
                     My interests within the industry lie in <span>fullstack development</span>. On the <span>frontend</span>, I enjoy creating beautiful and 
                     seamless user experiences and on the <span>backend</span> I enjoy working with databases and optimizing them.
                 </p>
