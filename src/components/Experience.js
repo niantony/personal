@@ -1,6 +1,6 @@
 import React from 'react'
 import './Section.css'
-import memoji from '../images/memoji.png'
+import memoji from '../images/memoji_work.png'
 import htf from '../images/htf.png'
 import mongodb from '../images/mongodb.png'
 import express from '../images/express.png'

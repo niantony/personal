@@ -1,6 +1,7 @@
 import React from 'react'
 import './Section.css'
 import memoji from '../images/memoji.png'
+import wave from '../images/wave.png'
 import ratemyportfolio from '../images/ratemyportfolio.png'
 import firebase from '../images/firebase.png'
 import nextjs from '../images/next-js.svg'
@@ -14,7 +15,7 @@ function Projects() {
     return (
         <div className='container-child'>
             <div className='heading'>
-                <img src={memoji} alt='About Memoji'/>
+                <img src={wave} alt='Heading Memoji'/>
                 <div className='heading-title'>
                     <h2>Projects</h2>
                     <h1>My personal projects</h1>

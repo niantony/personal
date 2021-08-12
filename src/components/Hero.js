@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import pfp from '../images/memoji.png'
+import pfp from '../images/profile.png'
 import linkedin from '../images/linkedin.png'
 import github from '../images/github.png'
 import mail from '../images/mail.png'
