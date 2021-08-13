@@ -9,7 +9,6 @@ import nodejs from '../images/nodejs.png'
 import react from '../images/react.png'
 import css from '../images/css.png'
 import { BiChevronRight } from 'react-icons/bi'
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
 function Projects() {
     return (
