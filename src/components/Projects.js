@@ -42,10 +42,10 @@ function Projects() {
                 </p>
                 <div className='links-container'>
                     <div className='link'>
-                        <a href="https://google.com" target="_blank">Code</a><div className='chevron'><BiChevronRight /></div>
+                        <a href="https://github.com/niantony/ratemyportfolio" target="_blank">Code</a><div className='chevron'><BiChevronRight /></div>
                     </div>    
                     <div className='link'>
-                        <a href="https://google.com" target="_blank">View</a><div className='chevron'><BiChevronRight /></div>
+                        <a href="https://ratemyportfolio.us/" target="_blank">View</a><div className='chevron'><BiChevronRight /></div>
                     </div>        
                 </div>
             </div>
@@ -68,8 +68,11 @@ function Projects() {
                 <p>Created using Reactjs framework</p>
                 <div className='links-container'>
                     <div className='link'>
-                        <a href="https://google.com" target="_blank">Code</a><div className='chevron'><BiChevronRight /></div>
-                    </div>          
+                        <a href="https://github.com/niantony/personal" target="_blank">Code</a><div className='chevron'><BiChevronRight /></div>
+                    </div>     
+                    <div className='link'>
+                        <a href="https://antonyni.com" target="_blank">View</a><div className='chevron'><BiChevronRight /></div>
+                    </div>      
                 </div>
             </div>
         </div>
