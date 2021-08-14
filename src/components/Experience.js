@@ -13,7 +13,7 @@ function Experience() {
                 <img src={memoji} alt='About Memoji'/>
                 <div className='heading-title'>
                     <h2>Experience</h2>
-                    <h1>My industry experience</h1>
+                    <h1>My work experience</h1>
                 </div>
             </div>
             <div className='list-heading'>
