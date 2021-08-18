@@ -33,6 +33,7 @@ function Experience() {
                 <p>Worked in an Agile Development environment to build a web application using the <span>MERN</span> stack for <span>NICHES Land Trust organization</span> to display and store information about various parks and their respective landmarks and trails</p>
                 <p>Incorporated <span>geolocation services</span> to guide users on park trails/hikes using interactive landmarks and waypoints</p>
                 <p>Took charge of the backend server by utilizing <span>Express.js</span> and <span>Node.js</span> for server-side development and creating a scalable database with interconnected schemas and models using <span>MongoDB</span> to build a <span>RESTful API</span></p>
+                <p>Expressed my ideas and presented any issues/bugs with potential solutions in stand-ups occurring several days per week.</p>
             </div>
         </div>
     )
