@@ -36,10 +36,11 @@ function Projects() {
                 </div>
             </div>
             <div className='list-body'>
-                <p>Developed a <span>full-stack</span> web application using <span>Firebase</span>, <span>Next.js</span>, and <span>Node.js</span> allowing users to create investment portfolios consisting of securities and rate other user’s portfolios</p>
-                <p>Utilized <span>Firebase Firestore</span> to store user information, which is displayed in the user’s dashboard (authenticated route) and to store investment portfolio data, which is rendered and displayed on public routes where users can rate them
+                <p>Developed a <span>full-stack</span> web application allowing users to create investment portfolios consisting of securities and rate other user’s portfolios</p>
+                <p>Leveraged <span>Firebase Firestore</span> to create a highly scalable database storing user and investment portfolio data to be displayed on authenticated and public routes respectively
                 </p>
-                <p>Used <span>Firebase Auth</span> to create an authentication system where users can sign up and login securely and allowing access to the global user state to incorporate user authenticated routes
+                <p>Integrated an <span>authentication system</span> where users can sign up and login securely to access user authenticated routes</p>
+                <p>Employed the <span>Next.js</span> framework for structured conditional rendering, search engine optimization efficiency, and seamless page navigation
                 </p>
                 <div className='links-container'>
                     <div className='link'>
@@ -63,14 +64,12 @@ function Projects() {
                 </div>
             </div>
             <div className='list-body'>
-                <p>Developed a product monitor for retail websites (currently supporting BestBuy) using <span>Python</span> to scrape product details and monitors when a product is in-stock/restocks</p>
+                <p>Created a product monitor for retail websites (currently supporting BestBuy) using <span>Python</span> to scrape product details and to monitor product availability</p>
                 <p>Monitors a range of products from a select website by inserting the desired product ids/skus into the application
                 </p>
                 <p>Notifies the user of a product restock with <span>Discord.py</span>, through Discord webhooks where the user can add the product directly to cart using an API endpoint
                 </p>
-                <p>
-                Incorporated proxy handling, an optional function allowing users to assign a range of proxies to monitor products 
-                </p>
+                <p>Incorporates proxy handling, an optional function allowing users to assign a range of proxies to monitor products </p>
                 <div className='links-container'>
                     <div className='link'>
                         <a href="https://github.com/niantony/product-monitor" target="_blank">Code</a><div className='chevron'><BiChevronRight /></div>
