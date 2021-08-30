@@ -1,7 +1,10 @@
 import React from 'react'
 import './Section.css'
 import memoji from '../images/memoji_work.png'
+import mm from '../images/mm.jpg'
 import htf from '../images/htf.png'
+import react from '../images/react.png'
+import postgresql from '../images/postgresql.png'
 import mongodb from '../images/mongodb.png'
 import express from '../images/express.png'
 import nodejs from '../images/nodejs.png'
@@ -15,6 +18,22 @@ function Experience() {
                     <h2>Experience</h2>
                     <h1>My work experience</h1>
                 </div>
+            </div>
+            <div className='list-heading'>
+                <img src={mm} alt='Mission: Mentor Logo'/>
+                <div className='heading-title'>
+                    <h2>Software Engineer Intern</h2>
+                    <h1>Mission: Mentor</h1>
+                    <h3>Aug. 2021 - Present</h3>
+                </div>
+                <div className='stack-container'>
+                    <img src={postgresql} alt='PostgreSQL'/>
+                    <img src={react} alt='React'/>
+                    <img src={nodejs} alt='Node.js'/>
+                </div>
+            </div>
+            <div className='list-body'>
+                <p>Developing a full-stack web application using the <span>PERN</span> (PostgreSQL, Express.js, React.js, Node.js) stack to assist high school students in the college admissions process</p>
             </div>
             <div className='list-heading'>
                 <img src={htf} alt='Hack the Future Logo'/>
