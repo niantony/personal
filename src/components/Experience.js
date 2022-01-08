@@ -8,6 +8,7 @@ import postgresql from '../images/postgresql.png'
 import mongodb from '../images/mongodb.png'
 import express from '../images/express.png'
 import nodejs from '../images/nodejs.png'
+import { BiChevronRight } from 'react-icons/bi'
 
 function Experience() {
     return (
@@ -24,7 +25,7 @@ function Experience() {
                 <div className='heading-title'>
                     <h2>Software Engineer Intern</h2>
                     <h1>Mission: Mentor</h1>
-                    <h3>Aug. 2021 - Present</h3>
+                    <h3>Aug. 2021 - Dec. 2021</h3>
                 </div>
                 <div className='stack-container'>
                     <img src={postgresql} alt='PostgreSQL'/>
@@ -34,6 +35,14 @@ function Experience() {
             </div>
             <div className='list-body'>
                 <p>Developing a full-stack web application using the <span>PERN</span> (PostgreSQL, Express.js, React.js, Node.js) stack to assist high school students in the college admissions process</p>
+                <p>Leveraging <span>React.js</span> to create a seamless and responsive user experience (landing page, user dashboard, scholarships and summer programs pages)</p>
+                <p>Implementing a <span>recommendation algorithm</span> to suggest scholarships and summer programs based on the current user’s background, academic profile, and interests</p>
+                <p>Utilizing <span>AWS Cognito</span> to employ a secure user directory, allowing users to sign up, log in, and view personalized routes</p>
+                <div className='links-container'>   
+                    <div className='link'>
+                        <a href="https://www.missionmentor.org/" target="_blank">View</a><div className='chevron'><BiChevronRight /></div>
+                    </div>      
+                </div>
             </div>
             <div className='list-heading'>
                 <img src={htf} alt='Hack the Future Logo'/>

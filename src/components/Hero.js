@@ -5,7 +5,7 @@ import linkedin from '../images/linkedin.png'
 import github from '../images/github.png'
 import mail from '../images/mail.png'
 import resume_icon from '../images/resumeicon.png'
-import resume from '../documents/Antony_Ni_Resume.pdf'
+import resume from '../documents/Antony Ni Resume.pdf'
 
 function Hero() {
     return (
