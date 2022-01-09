@@ -34,10 +34,10 @@ function Experience() {
                 </div>
             </div>
             <div className='list-body'>
-                <p>Developing a full-stack web application using the <span>PERN</span> (PostgreSQL, Express.js, React.js, Node.js) stack to assist high school students in the college admissions process</p>
-                <p>Leveraging <span>React.js</span> to create a seamless and responsive user experience (landing page, user dashboard, scholarships and summer programs pages)</p>
-                <p>Implementing a <span>recommendation algorithm</span> to suggest scholarships and summer programs based on the current user’s background, academic profile, and interests</p>
-                <p>Utilizing <span>AWS Cognito</span> to employ a secure user directory, allowing users to sign up, log in, and view personalized routes</p>
+                <p>Developed a full-stack web application using the <span>PERN</span> (PostgreSQL, Express.js, React.js, Node.js) stack to assist high school students in the college admissions process</p>
+                <p>Leveraged <span>React.js</span> to create a seamless and responsive user experience (landing page, user dashboard, scholarships and summer programs pages)</p>
+                <p>Implemented a <span>recommendation algorithm</span> to suggest scholarships and summer programs based on the current user’s background, academic profile, and interests</p>
+                <p>Utilized <span>AWS Cognito</span> to employ a secure user directory, allowing users to sign up, log in, and view personalized routes</p>
                 <div className='links-container'>   
                     <div className='link'>
                         <a href="https://www.missionmentor.org/" target="_blank">View</a><div className='chevron'><BiChevronRight /></div>
