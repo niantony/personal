@@ -1,9 +1,11 @@
 import React from 'react'
 import './Section.css'
 import memoji from '../images/memoji_work.png'
+import ford from '../images/fordlogo.jpg'
 import mm from '../images/mm.jpg'
 import htf from '../images/htf.png'
 import react from '../images/react.png'
+import ts from '../images/typescript.png'
 import postgresql from '../images/postgresql.png'
 import mongodb from '../images/mongodb.png'
 import express from '../images/express.png'
@@ -21,6 +23,14 @@ function Experience() {
                 </div>
             </div>
             <div className='list-heading'>
+                <img src={ford} alt='Ford Logo'/>
+                <div className='heading-title'>
+                    <h2>Incoming Software Engineer Intern</h2>
+                    <h1>Ford Motor Company</h1>
+                    <h3>Summer 2022</h3>
+                </div>
+            </div>
+            <div className='list-heading'>
                 <img src={mm} alt='Mission: Mentor Logo'/>
                 <div className='heading-title'>
                     <h2>Software Engineer Intern</h2>
@@ -29,8 +39,8 @@ function Experience() {
                 </div>
                 <div className='stack-container'>
                     <img src={postgresql} alt='PostgreSQL'/>
+                    <img src={ts} alt='Typescript'/>
                     <img src={react} alt='React'/>
-                    <img src={nodejs} alt='Node.js'/>
                 </div>
             </div>
             <div className='list-body'>
