@@ -25,9 +25,9 @@ function Experience() {
             <div className='list-heading'>
                 <img src={ford} alt='Ford Logo'/>
                 <div className='heading-title'>
-                    <h2>Incoming Software Engineer Intern</h2>
+                    <h2>Software Engineer Intern</h2>
                     <h1>Ford Motor Company</h1>
-                    <h3>Summer 2022</h3>
+                    <h3>May 2022 - Present</h3>
                 </div>
             </div>
             <div className='list-heading'>
