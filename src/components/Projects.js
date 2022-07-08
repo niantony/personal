@@ -40,8 +40,6 @@ function Projects() {
                 <p>Leveraged <span>Firebase Firestore</span> to create a highly scalable database storing user and investment portfolio data to be displayed on authenticated and public routes respectively
                 </p>
                 <p>Integrated an <span>authentication system</span> where users can sign up and login securely to access user authenticated routes</p>
-                <p>Employed the <span>Next.js</span> framework for structured conditional rendering, search engine optimization efficiency, and seamless page navigation
-                </p>
                 <div className='links-container'>
                     <div className='link'>
                         <a href="https://github.com/niantony/ratemyportfolio" target="_blank">Code</a><div className='chevron'><BiChevronRight /></div>
@@ -69,7 +67,6 @@ function Projects() {
                 </p>
                 <p>Notifies the user of a product restock with <span>Discord.py</span>, through Discord webhooks where the user can add the product directly to cart using an API endpoint
                 </p>
-                <p>Incorporates proxy handling, an optional function allowing users to assign a range of proxies to monitor products </p>
                 <div className='links-container'>
                     <div className='link'>
                         <a href="https://github.com/niantony/product-monitor" target="_blank">Code</a><div className='chevron'><BiChevronRight /></div>

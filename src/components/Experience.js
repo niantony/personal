@@ -1,9 +1,11 @@
 import React from 'react'
 import './Section.css'
+import angular from '../images/angular.png'
 import memoji from '../images/memoji_work.png'
 import ford from '../images/fordlogo.jpg'
 import mm from '../images/mm.jpg'
 import htf from '../images/htf.png'
+import java from '../images/java.png'
 import react from '../images/react.png'
 import ts from '../images/typescript.png'
 import postgresql from '../images/postgresql.png'
@@ -29,6 +31,16 @@ function Experience() {
                     <h1>Ford Motor Company</h1>
                     <h3>May 2022 - Present</h3>
                 </div>
+                <div className='stack-container'>
+                    <img src={angular} alt='Angular'/>
+                    <img src={ts} alt='Typescript'/>
+                    <img src={java} alt='Java'/>
+                </div>
+            </div>
+            <div className='list-body'>
+                <p>Working on the <span>Web Based Dealer Ordering</span> team to develop a full-stack application, allowing over <span>3,000</span> dealerships in North America to save their vehicle order preferences</p>
+                <p>Utilizing <span>TypeScript</span> and <span>Angular</span> to develop a user interface to save dealership input and creating rigorous unit tests with <span>Jasmine</span> and <span>Karma</span></p>
+                <p>Creating a backend server with a <span>RESTful API</span>, handling <span>CRUD</span> functions, using <span>Java</span> and <span>Spring Boot</span> alongside a <span>SQL</span> database</p>
             </div>
             <div className='list-heading'>
                 <img src={mm} alt='Mission: Mentor Logo'/>
@@ -47,7 +59,6 @@ function Experience() {
                 <p>Developed a full-stack web application using the <span>PERN</span> (PostgreSQL, Express.js, React.js, Node.js) stack to assist high school students in the college admissions process</p>
                 <p>Leveraged <span>React.js</span> to create a seamless and responsive user experience (landing page, user dashboard, scholarships and summer programs pages)</p>
                 <p>Implemented a <span>recommendation algorithm</span> to suggest scholarships and summer programs based on the current user’s background, academic profile, and interests</p>
-                <p>Utilized <span>AWS Cognito</span> to employ a secure user directory, allowing users to sign up, log in, and view personalized routes</p>
                 <div className='links-container'>   
                     <div className='link'>
                         <a href="https://www.missionmentor.org/" target="_blank">View</a><div className='chevron'><BiChevronRight /></div>
@@ -59,7 +70,7 @@ function Experience() {
                 <div className='heading-title'>
                     <h2>Backend Developer</h2>
                     <h1>Purdue Hack the Future</h1>
-                    <h3>Sept. 2020 - Jan. 2021</h3>
+                    <h3>Sep. 2020 - Jan. 2021</h3>
                 </div>
                 <div className='stack-container'>
                     <img src={mongodb} alt='MongoDB'/>
@@ -68,10 +79,9 @@ function Experience() {
                 </div>
             </div>
             <div className='list-body-last'>
-                <p>Worked in an Agile Development environment to build a web application using the <span>MERN</span> stack for <span>NICHES Land Trust organization</span> to display and store information about various parks and their respective landmarks and trails</p>
+                <p>Worked in an Agile environment to build a web application using the <span>MERN</span> stack for <span>NICHES Land Trust</span> to display and store information about various parks and their respective landmarks and trails</p>
                 <p>Incorporated <span>geolocation services</span> to guide users on park trails/hikes using interactive landmarks and waypoints</p>
-                <p>Took charge of the backend server by utilizing <span>Express.js</span> and <span>Node.js</span> for server-side development and creating a scalable database with interconnected schemas and models using <span>MongoDB</span> to build a <span>RESTful API</span></p>
-                <p>Expressed my ideas and presented any issues/bugs with potential solutions in stand-ups occurring several days per week.</p>
+                <p>Took charge of the backend server by utilizing <span>Express.js</span> and <span>Node.js</span> for server-side development and creating a database with interconnected schemas and models using <span>MongoDB</span> to build a <span>RESTful API</span></p>
             </div>
         </div>
     )
